@@ -6,6 +6,7 @@
 <title>Ronny's Smart Repair – Erlenbach | Service rund um Ihr Fahrzeug</title>
 <meta name="description" content="Smart Repair in Erlenbach bei Marktheidenfeld: Kleinlackierungen, Hagelschäden, Parkdellen, Felgen- und Fahrzeugaufbereitung. Schnell, günstig und ohne große Werkstatt – von Ronny Garn.">
 <meta name="theme-color" content="#0d0e12">
+<link rel="icon" type="image/png" href="assets/img/logo.png">
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
@@ -124,22 +125,20 @@
   /* hero visual */
   .hero-visual{position:relative;display:flex;justify-content:center}
   .badge-card{
-    width:100%;max-width:400px;border-radius:24px;
-    background:linear-gradient(160deg,#1c2029,#111318);
-    border:1px solid var(--line);
-    padding:30px;position:relative;overflow:hidden;
-    box-shadow:0 40px 80px -30px rgba(0,0,0,.8);
+    width:100%;max-width:420px;border-radius:24px;
+    background:#ffffff;
+    padding:34px 32px 30px;position:relative;overflow:hidden;
+    box-shadow:0 40px 80px -30px rgba(0,0,0,.85);
   }
   .badge-card::before{
-    content:"";position:absolute;inset:0;
-    background:radial-gradient(circle at 75% 12%,rgba(43,124,255,.20),transparent 55%);
+    content:"";position:absolute;left:0;right:0;top:0;height:6px;
+    background:linear-gradient(90deg,var(--blue),var(--red));
   }
-  .spray{width:110px;height:110px;margin:0 auto 18px;display:block;position:relative}
-  .badge-card h3{position:relative;text-align:center;font-size:1.5rem;font-weight:900;letter-spacing:.04em;text-transform:uppercase}
-  .badge-card h3 .red{color:var(--red-2)}
-  .badge-card .sig{position:relative;text-align:center;color:var(--muted);font-style:italic;margin-top:4px;font-size:1.02rem;font-family:"Segoe Script","Brush Script MT",cursive}
+  .hero-logo{width:100%;display:block}
   .chips{position:relative;display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:22px}
-  .chip{font-size:.74rem;font-weight:700;color:var(--steel);background:rgba(255,255,255,.05);border:1px solid var(--line);padding:6px 11px;border-radius:999px}
+  .chip{font-size:.74rem;font-weight:700;color:#4a505c;background:#f1f3f7;border:1px solid #e3e6ec;padding:6px 12px;border-radius:999px}
+  /* Echtes Logo als Wortmarke (Header/Footer) auf heller Plakette */
+  .brand-logo{height:44px;width:auto;display:block;background:#fff;border-radius:9px;padding:6px 11px;box-shadow:0 3px 10px rgba(0,0,0,.28)}
 
   /* floating dot texture */
   .spark{position:absolute;border-radius:50%;background:var(--red);filter:blur(1px);opacity:.6;animation:float 6s ease-in-out infinite}
@@ -317,18 +316,7 @@
 <header>
   <div class="wrap nav">
     <a href="#top" class="brand" aria-label="Ronny's Smart Repair Startseite">
-      <svg class="logo" viewBox="0 0 48 48" fill="none" aria-hidden="true">
-        <rect x="1" y="1" width="46" height="46" rx="11" fill="#14161c" stroke="#2a2f3a"/>
-        <!-- spray gun -->
-        <path d="M12 30l9-9 3 3-9 9-4 1z" fill="#c8ccd4"/>
-        <rect x="20.5" y="16.5" width="10" height="7" rx="1.6" transform="rotate(45 25.5 20)" fill="#2b7cff"/>
-        <path d="M30 14l4-4M32 16l4-4M34 18l4-4" stroke="#e30613" stroke-width="2" stroke-linecap="round"/>
-        <path d="M18 24l3 3" stroke="#e30613" stroke-width="2.4" stroke-linecap="round"/>
-      </svg>
-      <span class="txt">
-        <b>Ronny's</b>
-        <span>Smart<i> Repair</i></span>
-      </span>
+      <img class="brand-logo" src="assets/img/logo-trim.png" alt="Ronny's Smart Repair – Service rund um Ihr Fahrzeug" width="99" height="44">
     </a>
     <nav class="nav-links">
       <a href="#leistungen">Leistungen</a>
@@ -371,17 +359,7 @@
 
     <div class="hero-visual">
       <div class="badge-card">
-        <svg class="spray" viewBox="0 0 120 120" fill="none" aria-hidden="true">
-          <path d="M20 84l34-34 12 12-34 34-16 4z" fill="#c8ccd4"/>
-          <path d="M20 84l34-34 6 6-34 34z" fill="#e9ecf1"/>
-          <rect x="52" y="34" width="26" height="18" rx="3" transform="rotate(45 65 43)" fill="#2b7cff"/>
-          <rect x="56" y="38" width="26" height="6" rx="3" transform="rotate(45 69 41)" fill="#1a5fd6"/>
-          <path d="M78 30l10-10M84 36l10-10M90 42l10-10" stroke="#e30613" stroke-width="4" stroke-linecap="round"/>
-          <path d="M34 66l10 10" stroke="#e30613" stroke-width="5" stroke-linecap="round"/>
-          <circle cx="98" cy="20" r="3" fill="#ff2a3a"/><circle cx="104" cy="28" r="2" fill="#2b7cff"/>
-        </svg>
-        <h3>Smart<span class="red"> Repair</span></h3>
-        <p class="sig">Ronny Garn</p>
+        <img class="hero-logo" src="assets/img/logo-trim.png" alt="Ronny's Smart Repair – Service rund um Ihr Fahrzeug, Ronny Garn">
         <div class="chips">
           <span class="chip">Lack</span>
           <span class="chip">Hagel</span>
@@ -614,16 +592,7 @@
   <div class="wrap">
     <div class="foot-grid">
       <div>
-        <div class="brand" style="margin-bottom:14px">
-          <svg class="logo" viewBox="0 0 48 48" fill="none" aria-hidden="true">
-            <rect x="1" y="1" width="46" height="46" rx="11" fill="#14161c" stroke="#2a2f3a"/>
-            <path d="M12 30l9-9 3 3-9 9-4 1z" fill="#c8ccd4"/>
-            <rect x="20.5" y="16.5" width="10" height="7" rx="1.6" transform="rotate(45 25.5 20)" fill="#2b7cff"/>
-            <path d="M30 14l4-4M32 16l4-4M34 18l4-4" stroke="#e30613" stroke-width="2" stroke-linecap="round"/>
-            <path d="M18 24l3 3" stroke="#e30613" stroke-width="2.4" stroke-linecap="round"/>
-          </svg>
-          <span class="txt"><b>Ronny's</b><span>Smart<i> Repair</i></span></span>
-        </div>
+        <img class="brand-logo" src="assets/img/logo-trim.png" alt="Ronny's Smart Repair" style="height:56px;margin-bottom:16px">
         <p>Service rund um Ihr Fahrzeug.<br>Ronny Garn · Erlenbach im Landkreis Main-Spessart.</p>
       </div>
       <div>

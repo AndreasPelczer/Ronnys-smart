@@ -22,7 +22,7 @@ Deploy wie die anderen Cloudflare-Sites: Ordner hochladen, fertig.
 
 - [ ] **Impressum**: Rechtsform, USt-IdNr./Steuernr., ggf. Handwerkskammer eintragen (⚠︎-Stellen).
 - [ ] **Datenschutz**: Hosting-Provider + Stand-Datum eintragen (⚠︎-Stellen), juristisch prüfen lassen.
-- [ ] **Echtes Logo** von Ronny als SVG/PNG einbauen (aktuell als SVG nachgebaut).
+- [x] **Echtes Logo** von Ronny eingebaut (`assets/img/logo.png` + beschnitten `logo-trim.png`).
 - [ ] **Echte Vorher/Nachher-Fotos** von Ronny in den Slider (`assets/img/vorher-nachher.jpeg` ersetzen; ideal: dieselbe Stelle vorher/nachher).
 - [ ] Optional: exakte **Geo-Koordinaten** für den Karten-Pin.
 - [ ] Prüfen: Aussage „bis zu 70 % günstiger" mit Ronny abstimmen.
